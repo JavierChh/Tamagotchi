@@ -5,7 +5,7 @@ public class Tamagotchi {
     private int hambre;
     private int felicidad;
 
-    public Tamagotchi(String nombre) {
+    public Tamagotchi(String nombre, int salud, int hambre, int felicidad) {
         this.nombre = nombre;
         this.salud = 100;
         this.hambre = 0;

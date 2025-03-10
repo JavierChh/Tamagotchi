@@ -7,7 +7,10 @@ public class Main {
         System.out.println("Elige un nombre para tu Tamagotchi:");
         
         String nombre = scanner.nextLine();
-        Tamagotchi tamagotchi = new Tamagotchi(nombre);
+        int salud = 100;
+        int hambre = 0;
+        int felicidad = 100;
+        Tamagotchi tamagotchi = new Tamagotchi(nombre, salud, hambre, felicidad);
 
         while (true) {
             System.out.println("\n¿Qué acción quieres realizar?");
